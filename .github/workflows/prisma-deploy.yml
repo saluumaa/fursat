@@ -1,5 +1,6 @@
 name: Deploy Prisma Schema
 
+
 on:
   push:
     branches: [ main ]
