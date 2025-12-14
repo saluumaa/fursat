@@ -123,19 +123,6 @@ Key models:
 npx prisma migrate deploy
 ```
 
-## 🔐 Authentication Setup
-
-### Google OAuth
-1. Create a project in [Google Cloud Console](https://console.cloud.google.com/)
-2. Enable Google+ API
-3. Create OAuth 2.0 credentials
-4. Add authorized redirect URI: `http://localhost:3000/api/auth/callback/google`
-5. Add credentials to `.env`
-
-### Email Authentication
-1. Sign up for [Resend](https://resend.com/)
-2. Get your API key
-3. Add to `.env` as `RESEND_API_KEY`
 
 ## 📝 Available Scripts
 
